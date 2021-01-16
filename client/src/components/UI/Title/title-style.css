@@ -1,0 +1,61 @@
+.TitleContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.Title {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+.TitleBig {
+  padding: 0 3px;
+  color: #703b09;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 17px;
+  animation: displaySlow 0.7s ease-in;
+}
+
+@keyframes displaySlow {
+  0% {
+    font-size: 14px;
+    opacity: 0;
+  }
+  50% {
+    font-size: 20px;
+    opacity: 0.5;
+  }
+  100% {
+    font-size: 17px;
+    opacity: 1;
+  }
+}
+.TitleSmall {
+  position: absolute;
+  left: 60%;
+  font-style: italic;
+  animation: slideRight 1.2s ease-in;
+}
+@keyframes slideRight {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  50% {
+    left: 15%;
+    opacity: 0.2;
+  }
+  70% {
+    left: 30%;
+    opacity: 0.2;
+  }
+  100% {
+    left: 60%;
+    opacity: 1;
+  }
+}
