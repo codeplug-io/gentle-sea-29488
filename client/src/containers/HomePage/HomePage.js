@@ -1,7 +1,7 @@
 import React from "react";
 import MaterialUiTest from "../../components/MaterialUiTest/MaterialUiTest";
 // import classes from "./homepage-classes.css";
-import "./homepage-classes.css";
+import "./homepage-classes.scss";
 
 const homepage = props => {
   let title = "Homepage";
